@@ -1,12 +1,12 @@
-# Mobile Login Dashboard (Vue)
+# Mobile Login Dashboard (React)
 
-Vue 3 + Vite responsive login and dashboard app with local demo authentication.
+Responsive React + Vite login and dashboard app with local demo authentication.
 
-Run with:
+## Run
 
 ```bash
 npm install
 npm run dev
 ```
 
-The dev server listens on `0.0.0.0:5173` for browser preview environments. Use any valid email and a password with at least six characters.
+Vite listens on `0.0.0.0:5173` for browser preview environments. Demo login accepts any valid email and a password with at least six characters.
