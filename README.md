@@ -9,7 +9,7 @@ npm install
 npm start
 ```
 
-Open `http://localhost:4200`.
+The preview server listens on all interfaces at port 4200. Open `http://localhost:4200` locally, or use the preview URL provided by your environment.
 
 ## Demo login
 
