@@ -1,10 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
 import { DashboardCardComponent } from '../../components/dashboard-card/dashboard-card.component';
 import { StatCard, QuickAction } from '../../models/dashboard.model';
 
-@Component({ standalone: true, imports: [DashboardCardComponent], templateUrl: './dashboard.component.html', styleUrl: './dashboard.component.css' })
+@Component({ standalone: true, imports: [CommonModule, DashboardCardComponent], templateUrl: './dashboard.component.html', styleUrl: './dashboard.component.css' })
 export class DashboardComponent {
   private readonly auth = inject(AuthService);
   private readonly router = inject(Router);
