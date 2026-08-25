@@ -1,15 +1,15 @@
-# Mobile Login Dashboard
+# Mobile Login Dashboard (Angular)
 
-A simple React Native mobile app built with Expo. It includes a validated login form and a polished dashboard with mock statistics and quick actions.
+A responsive Angular login and dashboard application using local demo authentication.
 
 ## Run locally
 
 ```bash
 npm install
-npx expo start
+npm start
 ```
 
-Scan the QR code with Expo Go, or press `a` for Android, `i` for iOS, or `w` for web.
+Open `http://localhost:4200`.
 
 ## Demo login
 
