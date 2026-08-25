@@ -1,16 +1,12 @@
-# Mobile Login Dashboard (Angular)
+# Mobile Login Dashboard (Vue)
 
-A responsive Angular login and dashboard application using local demo authentication.
+Vue 3 + Vite responsive login and dashboard app with local demo authentication.
 
-## Run locally
+Run with:
 
 ```bash
 npm install
-npm start
+npm run dev
 ```
 
-The preview server listens on all interfaces at port 4200. Open `http://localhost:4200` locally, or use the preview URL provided by your environment.
-
-## Demo login
-
-Use any valid email address and a password with at least six characters. Authentication is local demo behavior and does not connect to a backend.
+The dev server listens on `0.0.0.0:5173` for browser preview environments. Use any valid email and a password with at least six characters.
